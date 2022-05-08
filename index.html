@@ -1,0 +1,395 @@
+<!doctype html>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="img/fatestars.png" sizes="280x280">
+  <link rel="apple-touch-icon-precomposed" href="img/fatestars.png">
+  <meta name="msapplication-TileImage" content="assets/main/icon/fatestars.png?v=1.0.1">
+  <link rel="shortcut icon" href="img/fatestars.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="full-screen" content="yes"><!--UC强制全屏-->
+  <meta name="browsermode" content="application"><!--UC应用模式-->
+  <meta name="x5-fullscreen" content="true"><!--QQ强制全屏-->
+  <meta name="x5-page-mode" content="app"><!--QQ应用模式-->
+  <title>全球首屈一指的引导页</title>
+  <meta name="description" content="Aut">
+  <meta name="keywords" content="Aut">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Aut"> 
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script src="https://at.alicdn.com/t/font_400990_j21lstb4wx.js"></script>
+  <script src="js/sou.js"></script>
+  <link href="css/style-back.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <style>footer #footer-container .swiper-scrollbar{display: none;}</style>
+  <style id="smooth-scrollbar-style">
+[data-scrollbar] {
+  display: block;
+  position: relative;
+}
+
+.scroll-content {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.scrollbar-track {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  background: rgba(222, 222, 222, .75);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: opacity 0.5s 0.5s ease-out;
+          transition: opacity 0.5s 0.5s ease-out;
+}
+.scrollbar-track.show,
+.scrollbar-track:hover {
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.scrollbar-track-x {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+}
+.scrollbar-track-y {
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 100%;
+}
+.scrollbar-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 4px;
+}
+</style>
+</head> 
+<body class="hidden hidden-ball smooth-scroll">
+<main> 
+<!-- Loading --> 
+<div class="preloader-wrap"> 
+<div class="outer"> 
+<div class="inner"> 
+<div class="percentage" id="precent"></div> 
+<div class="trackbar"> 
+<div class="loadbar"></div> 
+</div> 
+<div class="headphones"></div> 
+<div class="headphones-text">
+Aut
+</div> 
+</div> 
+</div> 
+</div>
+<div class="cd-index cd-main-content"> 
+<div id="page-content" class="light-content"> 
+<header class="fullscreen-menu" style="background-color: transparent;"> 
+<div id="header-container" style="opacity: 1; transform: translate3d(0px, 0px, 0px);"> 
+<!-- 菜单导航 --> 
+<nav style="background-color: rgb(17, 17, 17);"> 
+<div class="nav-height"> 
+<div class="outer"> 
+<div class="inner"> 
+<ul data-breakpoint="10025" class="flexnav">
+<li class="link menu-timeline">
+<a href="/"><span data-hover="返回首页">返回首页</span></a></li>
+
+<li class="link menu-timeline"><a class="ajax-link" href=""><span data-hover="Contact">旗下站点</span></a>
+<ul>
+<li><a class="ajax-link" href="https://www.aut520.tk">Aut</a></li>
+</ul>
+</li> 
+
+<li class="link menu-timeline"><a class="ajax-link" href=""><span data-hover="Contact">旗下项目</span></a>
+<ul>
+<li><a class="ajax-link" href="/">没有</a></li>
+</ul>
+</li>
+
+<li class="link menu-timeline"><a class="ajax-link" href="#">
+<span data-hover="Contact">关于我</span></a></li>
+</ul>
+
+<p style="text-align: center;position: fixed !important;top: calc(100vh - 100px);font-size: 14px;line-height: 30px;font-weight: 500;margin: 0 auto;display: table !important;left: calc(50% - 150px);pointer-events: initial;">Copyright (©) 2022 | <a target="_blank" href="https://www.aut520.tk" style="color: #fff;">Aut</a></p>
+</div>
+</div> 
+</div> 
+</nav>
+
+<div id="burger-wrapper" class="parallax-wrap" style="transform: matrix(1, 0, 0, 1, 0, 0);"> 
+<div id="menu-burger" class="parallax-element" style="transform: matrix(1, 0, 0, 1, 0, 0);"> 
+<span></span> 
+<span></span> 
+</div> 
+<span class="touch-button" style="transform: matrix(1, 0, 0, 1, 0, 0);"><i class="navicon">▼</i></span>
+</div> 
+</div> 
+</header>
+<div id="content-scroll"> 
+</div> 
+<!-- 页面内容 --> 
+<div id="main"> 
+<div id="main-content">
+<style>.showcase-pagination-wrap span .showcase-counter:last-child{display: block !important;}</style>
+<div id="showcase-holder"> 
+<div id="showcase-tilt-wrap"> 
+<div id="showcase-tilt"> 
+<div id="showcase-slider" class="swiper-container"> 
+<div class="swiper-wrapper"> 
+    
+<!-- 首张输出 --> 
+<div class="swiper-slide bg-video" data-title=" Aut在线百度美化搜索" data-subtitle=" Aut" data-number="1"> 
+<div class="img-mask"> 
+<div class="section-image" data-src="https://www.l52l.com/apis/random/api.php"> 
+<div class="hero-video-wrapper"> 
+<video loop="" muted="" class="bgvid"> 
+<source src="" type="video/mp4">
+</video> 
+</div> 
+</div> 
+</div> 
+</div>
+    
+<div class="showcase-pagination-wrap">
+<span>
+<div class="showcase-counter" data-total="1" style="display: none;"></div>
+</span>
+<div class="showcase-pagination"></div> 
+<div class="caption-border left"></div> 
+<div class="caption-border right"></div> 
+<div class="arrows-wrap"> 
+<div class="prev-wrap parallax-wrap">
+<div class="swiper-button-prev swiper-button-white parallax-element"></div>
+</div> 
+<div class="next-wrap parallax-wrap">
+<div class="swiper-button-next swiper-button-white parallax-element"></div>
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div>
+<div id="content">
+        <div class="con">
+            <a onclick="kaishi()">  <div class="shlogo" style="background: url(img/logo.png) no-repeat center/cover;background-size:60% ; "></div>
+            <div class="sou"> 
+                <form action="" method="post" target="_self">  
+                   <div class="lg" style="background: url(img/baidu.svg) no-repeat center/cover;" onclick="window.location.href='?t=';"></div>                    <!--input class="t" type="text" value="" name="t" hidden-->
+                    <input class="wd" type="text" placeholder="请输入搜索内容" name="q" x-webkit-speech="" lang="zh-CN" autocomplete="off">
+                    <button><svg class="icon" style=" width: 21px; height: 21px; opacity: 0.5;" aria-hidden="true"><use xlink:href="https://www.fatestars.com/#icon-sousuo"></use></svg></button>
+                </form>
+                <div id="word"></div>
+            </div>
+        </a></div><a onclick="kaishi()">
+   </a></div><a onclick="kaishi()">
+ 
+<!--底部内容-->
+</a><footer class="fixed"><a onclick="kaishi()"> 
+</a><div id="footer-container"><a onclick="kaishi()"> 
+
+<div class="button-wrap left"> 
+<div class="icon-wrap parallax-wrap"> 
+<div class="button-icon parallax-element"> 
+<div class="bars"> 
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div> 
+</div> 
+</div> 
+</div> 
+<div class="button-text">
+<span data-on="Sound On" data-off="Sound Off">Sound On</span>
+</div> 
+</div> 
+<div class="swiper-scrollbar"></div> 
+</a><div class="socials-wrap"><a onclick="kaishi()"> 
+<div class="socials-icon">
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</div> 
+<div class="socials-text">
+contact me
+</div> 
+</a><ul class="socials"><a onclick="kaishi()"> 
+</a><li><a onclick="kaishi()">
+<span class="parallax-wrap">
+</span></a><a class="parallax-element" href="#" target="_blank">
+<i class="fa fa-qq" aria-hidden="true"></i></a>
+</li> 
+<li>
+<span class="parallax-wrap"><a class="parallax-element" href="#" target="_blank">
+<i class="fa fa-weixin" aria-hidden="true"></i></a></span>
+</li> 
+<li>
+<span class="parallax-wrap"><a class="parallax-element" href="#" target="_blank">
+<i class="fa fa-renren" aria-hidden="true"></i></a></span>
+</li> 
+<li>
+<span class="parallax-wrap"><a class="parallax-element" href="#" target="_blank">
+<i class="fa fa-weibo" aria-hidden="true"></i></a></span>
+</li> 
+<li>
+<span class="parallax-wrap"><a class="parallax-element" href="#">
+<i class="fa fa-tencent-weibo" aria-hidden="true"></i></a></span>
+</li> 
+</ul> 
+</div> 
+</div>
+</footer>
+</div> 
+</div> 
+</main> 
+<div class="cd-cover-layer"></div> 
+<div id="magic-cursor"> 
+<div id="ball"> 
+<div id="hold-event"></div> 
+<div id="ball-loader"></div> 
+</div> 
+</div> 
+<div id="clone-image"></div> 
+<div id="rotate-device"></div> 
+<!--音乐控件-->  
+
+<audio autoplay="autoplay" loop="" volume="0" id="audio" src="media/m1.mp3" onended="this.load();">
+</audio>  
+<script type="text/javascript">
+    window.onload = function(){
+             setInterval("toggleSound()",100);
+        }
+
+    function toggleSound() {
+                var music = document.getElementById("audio");//获取ID  
+                    
+                if (music.paused) { //判读是否播放  
+                    music.paused=false;
+                    music.play(); //没有就播放 
+                }    
+        }
+</script>
+<script src="js/jquery.min.js"></script> 
+<script src="js/scrollmagic.min.js"></script> 
+<script src="js/debug.addindicators.min.js"></script> 
+<script src="js/animation.gsap.min.js"></script>
+<script src="js/plugins.js"></script> 
+<script src="js/scripts.js"></script>
+<!--天气-->
+ <div class="mywth" style="width: 150px;">
+      <div id="he-plugin-simple"></div>
+<script>
+WIDGET = {
+  "CONFIG": {
+    "modules": "01234",
+    "background": "1",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "FFFFFF",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "8",
+    "fixed": "false",
+    "vertical": "top",
+    "horizontal": "left",
+    "key": "50b796388d7346acb3bde528a56b4190"
+  }
+}
+</script>
+<script>
+function kaishi()  
+    {  
+  
+  
+        var docElm = document.documentElement;  
+        //W3C   
+        if (docElm.requestFullscreen) {  
+            docElm.requestFullscreen();  
+        }  
+            //FireFox   
+        else if (docElm.mozRequestFullScreen) {  
+            docElm.mozRequestFullScreen();  
+        }  
+            //Chrome等   
+        else if (docElm.webkitRequestFullScreen) {  
+            docElm.webkitRequestFullScreen();  
+        }  
+            //IE11   
+        else if (elem.msRequestFullscreen) {  
+            elem.msRequestFullscreen();  
+        }  
+    }  
+  
+    function guanbi() {  
+  
+  
+        if (document.exitFullscreen) {  
+            document.exitFullscreen();  
+        }  
+        else if (document.mozCancelFullScreen) {  
+            document.mozCancelFullScreen();  
+        }  
+        else if (document.webkitCancelFullScreen) {  
+            document.webkitCancelFullScreen();  
+        }  
+        else if (document.msExitFullscreen) {  
+            document.msExitFullscreen();  
+        }  
+    }  
+  
+  
+  
+  
+    document.addEventListener("fullscreenchange", function () {  
+          
+        fullscreenState.innerHTML = (document.fullscreen) ? "" : "not ";  
+    }, false);  
+     
+  
+      
+    document.addEventListener("mozfullscreenchange", function () {  
+         
+        fullscreenState.innerHTML = (document.mozFullScreen) ? "" : "not ";  
+    }, false);  
+      
+  
+     
+    document.addEventListener("webkitfullscreenchange", function () {  
+          
+        fullscreenState.innerHTML = (document.webkitIsFullScreen) ? "" : "not ";  
+    }, false);  
+      
+    document.addEventListener("msfullscreenchange", function () {  
+          
+        fullscreenState.innerHTML = (document.msFullscreenElement) ? "" : "not ";  
+    }, false);  
+   
+</script> 
+
+<script src="js/he-simple-common.js"></script>
+
+ </div>  
+ 
+
+</body></html>

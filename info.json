@@ -1,0 +1,290 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://www.fatestars.com/",
+            "path": "index.html",
+            "saved": true,
+            "size": 15248,
+            "children": [
+                {
+                    "url": "https://www.fatestars.com/assets/main/icon/logo.png",
+                    "path": "img/logo.png",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/icon/baidu.svg",
+                    "path": "img/baidu.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js",
+                    "saved": false
+                },
+                {
+                    "url": "https://at.alicdn.com/t/font_400990_j21lstb4wx.js",
+                    "saved": false
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/js/sou.js?t=2111031247",
+                    "path": "js/sou.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/js/jquery.min.js",
+                    "path": "js/jquery.min.js",
+                    "saved": true,
+                    "size": 84284,
+                    "children": []
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/js/scrollmagic.min.js",
+                    "path": "js/scrollmagic.min.js",
+                    "saved": true,
+                    "size": 17194,
+                    "children": []
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/js/debug.addindicators.min.js",
+                    "path": "js/debug.addindicators.min.js",
+                    "saved": true,
+                    "size": 7125,
+                    "children": []
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/js/animation.gsap.min.js",
+                    "path": "js/animation.gsap.min.js",
+                    "saved": true,
+                    "size": 1189,
+                    "children": []
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/js/plugins.js",
+                    "path": "js/plugins.js",
+                    "saved": true,
+                    "size": 434069,
+                    "children": []
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/js/scripts.js",
+                    "path": "js/scripts.js",
+                    "saved": true,
+                    "size": 83966,
+                    "children": []
+                },
+                {
+                    "url": "https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0",
+                    "path": "js/he-simple-common.js",
+                    "saved": true,
+                    "size": 402,
+                    "children": []
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/css/style.css?t=2111031247",
+                    "path": "css/style.css",
+                    "saved": true,
+                    "size": 8602,
+                    "children": [
+                        {
+                            "url": "https://www.fatestars.com/assets/main/css/showcase.css",
+                            "path": "css/showcase.css",
+                            "saved": true,
+                            "size": 29756,
+                            "children": []
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/css/portfolio.css",
+                            "path": "css/portfolio.css",
+                            "saved": true,
+                            "size": 15382,
+                            "children": []
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/css/shortcodes.css",
+                            "path": "css/shortcodes.css",
+                            "saved": true,
+                            "size": 23357,
+                            "children": []
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/css/assets.css",
+                            "path": "css/assets.css",
+                            "saved": true,
+                            "size": 41725,
+                            "children": [
+                                {
+                                    "url": "https://www.fatestars.com/assets/main/images/owl.video.play.png",
+                                    "saved": false
+                                }
+                            ]
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/pxibyp8kv8jhgfvrldz8z1xlea.ttf",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/pxieyp8kv8jhgfvrjjfedw.ttf",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/pxibyp8kv8jhgfvrlej6z1xlea.ttf",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/pxibyp8kv8jhgfvrlcz7z1xlea.ttf",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/css/icon/logo.svg",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/css/style-back.css",
+                    "path": "css/style-back.css",
+                    "saved": true,
+                    "size": 57018,
+                    "children": [
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/pxibyp8kv8jhgfvrldz8z1xlea.ttf",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/pxieyp8kv8jhgfvrjjfedw.ttf",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/pxibyp8kv8jhgfvrlej6z1xlea.ttf",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/pxibyp8kv8jhgfvrlcz7z1xlea.ttf",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/images/rotate.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/images/headphones.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/images/headphones-white.png",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/css/font-awesome.min.css",
+                    "path": "css/font-awesome.min.css",
+                    "saved": true,
+                    "size": 21921,
+                    "children": [
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/fontawesome-webfont.eot",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/fontawesome-webfont.woff",
+                            "path": "fonts/fontawesome-webfont.woff",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/fontawesome-webfont.ttf",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.fatestars.com/assets/main/fonts/fontawesome-webfont.svg",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/icon/fatestars.png?v=1.0.1",
+                    "path": "img/fatestars.png",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.fatestars.com/assets/main/mv/video1.mp4",
+                    "path": "media/video1.mp4",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://m701.music.126.net/20211103131258/cd737b2ebe2321200bb109628e357d7c/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/2010022067/bece/dd53/8231/325dd7dc489c3100d480416a1bad1792.mp3",
+                    "path": "media/325dd7dc489c3100d480416a1bad1792.mp3",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "alias": "www-fatestars-com-zw96god",
+    "info": {
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://www.fatestars.com/assets/main/css/assets.css",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "redirects": [],
+            "responseUrl": "https://www.fatestars.com/",
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Wed, 03 Nov 2021 04:47:44 GMT",
+                "content-type": "text/html; charset=UTF-8",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "strict-transport-security": "max-age=31536000"
+            }
+        },
+        "time": {
+            "start": "2021-11-03T04:47:44.209Z",
+            "end": "2021-11-03T04:48:03.480Z"
+        },
+        "remark": [],
+        "ip": "45.153.129.169",
+        "url": "https://www.fatestars.com/",
+        "main": "index.html",
+        "domain": "www.fatestars.com",
+        "origin": "https://www.fatestars.com",
+        "totalSize": "841 kB"
+    },
+    "options": {
+        "formatter": [],
+        "url": "https://www.fatestars.com/",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "filenameGenerator": "byType"
+    }
+}
